@@ -1,0 +1,72 @@
+@import "../../../styles.scss";
+
+.archive {
+    color: $scooter;
+
+    &:hover {
+        cursor: pointer;
+        color: #2a90cd;
+        text-align: end;
+    }
+}
+
+.border--toolbar {
+    border: 2px solid white;
+    margin-right: 0.2rem;
+    padding: 0 0.2rem 0 0.2rem;
+}
+
+.mat-icon {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.mat-cell {
+    color: $jumbo;
+}
+
+.color-jumbo {
+    color: $jumbo;
+}
+
+.color-mystic {
+    color: $mystic;
+}
+
+.mat-header-cell {
+    color: $oxford-blue !important;
+}
+
+.bg-athens {
+    background-color: $athens-gray;
+}
+
+.selectable:hover {
+    cursor: pointer;
+}
+
+// I know this is not best practice, but it is often required.
+// I intentionally used Angular material for the select to show this.
+// Otherwise, I would have used a generic select and styled it accordingly
+
+::ng-deep .mat-form-field-underline {
+    color: $mystic;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: transparent;
+}
+
+::ng-deep .mat-select-value,
+::ng-deep .mat-select-arrow,
+::ng-deep .mat-form-field-label {
+    color: $mystic !important;
+}
+
+// ::ng-deep.mat-form-field-appearance-outline ::ng-deep.mat-form-field-outline {
+//     color: $mystic;
+// }
+
+// ::ng-deep .mat-dialog-content {
+//     color: rgb(57, 112, 168);
+// }
