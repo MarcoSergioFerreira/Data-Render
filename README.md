@@ -1,3 +1,11 @@
+# Task D Questions
+
+This assessment took me about 4 hours. The task that took the most time was the sorting. I decided to use Angular Material's sort functionality, however there was an issue that prevented me from sorting accurately. Once I got that working, everthing else moved along smoothly.
+
+I would have liked to add some unit tests. I also would liked to have defined a clear, reuseable style sheet. I also edited some of angular materials default sytling, not out of neccessity, but just purely to show that it is possible (however frowned upon).
+
+I really enjoyed the assignment overall. I enjoyed the design choices, it is always nice when your work looks good.
+
 # DataRender
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
